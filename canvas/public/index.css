@@ -1,0 +1,195 @@
+body{
+  display: flex;
+  background-color: rgb(251, 229, 240);
+  /*cursor:;*/
+}
+#selecter{
+  position: relative;
+  top:30px;
+  left:300px;
+  height: 50px;
+}
+canvas{
+  position: relative;
+  background-color: rgb(251, 225, 225);
+  border: 3px solid rgb(100, 81, 81);
+  top: 150px;
+  right:200px;
+}
+
+#tool{
+  position: relative;
+  top: 270px;
+  right: 150px;
+  height: 300px;
+  width: 250px;
+}
+#pen{
+  background-image:url(./icon/pen.png);
+  height: 65px;
+  width: 65px;
+  border-radius: 10px;
+  background-color: rgb(251, 229, 240);
+  border-color: rgb(141, 205, 200);
+}
+#pen:hover{
+  background-color: rgb(113, 215, 224);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#pen:focus{
+  background-color: rgb(113, 215, 224);
+}
+
+#eraser{
+  background-image:url(./icon/eraser.png);
+  height: 65px;
+  width: 65px;
+  border-radius: 10px;
+  background-color: rgb(251, 229, 240);
+  border-color: rgb(141, 205, 200);
+}
+#eraser:hover{
+  background-color: rgb(113, 215, 224);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#eraser:focus{
+  background-color: rgb(113, 215, 224);
+}
+
+#text{
+  background-image:url(./icon/text.png);
+  height: 65px;
+  width: 65px;
+  border-radius: 10px;
+  background-color: rgb(251, 229, 240);
+  border-color: rgb(141, 205, 200);
+}
+#text:hover{
+  background-color: rgb(113, 215, 224);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#text:focus{
+  background-color: rgb(113, 215, 224);
+}
+
+#cir{
+  background-image:url(./icon/circle.png);
+  height: 65px;
+  width: 65px;
+  border-radius: 10px;
+  background-color: rgb(251, 229, 240);
+  border-color: rgb(141, 205, 200);
+}
+#cir:hover{
+  background-color: rgb(113, 215, 224);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#cir:focus{
+  background-color: rgb(113, 215, 224);
+}
+
+#tri{
+  background-image:url(./icon/triangle.png);
+  height: 65px;
+  width: 65px;
+  border-radius: 10px;
+  background-color: rgb(251, 229, 240);
+  border-color: rgb(141, 205, 200);
+}
+#tri:hover{
+  background-color: rgb(113, 215, 224);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#tri:focus{
+  background-color: rgb(113, 215, 224);
+}
+
+#rect{
+  background-image:url(./icon/rectangle.png);
+  height: 65px;
+  width: 65px;
+  border-radius: 10px;
+  background-color: rgb(251, 229, 240);
+  border-color: rgb(141, 205, 200);
+}
+#rect:hover{
+  background-color: rgb(113, 215, 224);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#rect:focus{
+  background-color: rgb(113, 215, 224);
+}
+
+#reset{
+  background-image:url(./icon/reset.png);
+  height: 60px;
+  width: 65px;
+  border-radius: 10px;
+  background-color: rgb(251, 229, 240);
+  border-color: rgb(141, 205, 200);
+}
+#reset:hover{
+  background-color: rgb(113, 215, 224);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#reset:focus{
+  background-color: rgb(113, 215, 224);
+}
+
+#ImageDownloader{
+  background-image:url(./icon/download.png);
+  height: 60px;
+  width: 65px;
+  border-radius: 10px;
+  background-color: rgb(251, 229, 240);
+  border-color: rgb(141, 205, 200);
+}
+#ImageDownloader:hover{
+  background-color: rgb(113, 215, 224);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#ImageDownloader:focus{
+  background-color: rgb(113, 215, 224);
+}
+
+#Un_do{
+  background-image:url(./icon/undo.png);
+  height: 55px;
+  width: 65px;
+  border-radius: 10px;
+  background-color: rgb(251, 229, 240);
+  border-color: rgb(141, 205, 200);
+}
+#Un_do:hover{
+  background-color: rgb(113, 215, 224);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#Un_do:focus{
+  background-color: rgb(113, 215, 224);
+}
+
+#Re_do{
+  background-image:url(./icon/redo.png);
+  height: 55px;
+  width: 65px;
+  border-radius: 10px;
+  background-color: rgb(251, 229, 240);
+  border-color: rgb(141, 205, 200);
+}
+#Re_do:hover{
+  background-color: rgb(113, 215, 224);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#Re_do:focus{
+  background-color: rgb(113, 215, 224);
+}

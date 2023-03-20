@@ -1,0 +1,25 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "goombaDie",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.2,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "ab930e71-0b40-4ef6-bec0-fa83876a7d5f"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

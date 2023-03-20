@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b7f2ae73-a4d3-4aaa-babf-6b7739065d96",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "point",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 14,
+  "height": 18,
+  "platformSettings": {},
+  "subMetas": {
+    "generic-rpg-crate03": {
+      "ver": "1.0.6",
+      "uuid": "e114a061-e56a-46a1-a4df-d445ee1cfa7a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b7f2ae73-a4d3-4aaa-babf-6b7739065d96",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 14,
+      "height": 18,
+      "rawWidth": 14,
+      "rawHeight": 18,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

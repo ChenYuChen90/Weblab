@@ -1,0 +1,90 @@
+2020-05-27T05:55:05.040Z - normal: Load ~/.CocosCreator/settings.json
+2020-05-27T05:55:05.107Z - normal: Initializing Asset Database
+2020-05-27T05:55:05.111Z - normal: checking language setting...
+2020-05-27T05:55:05.111Z - normal: Language: en
+2020-05-27T05:55:05.509Z - success: preview server running at http://localhost:7457
+2020-05-27T05:55:05.511Z - success: protocol editor-framework registered
+2020-05-27T05:55:05.511Z - success: protocol app registered
+2020-05-27T05:55:05.511Z - success: protocol theme registered
+2020-05-27T05:55:05.512Z - success: protocol packages registered
+2020-05-27T05:55:05.512Z - success: protocol uuid registerred
+2020-05-27T05:55:05.512Z - success: protocol db registerred
+2020-05-27T05:55:05.512Z - success: protocol thumbnail registerred
+2020-05-27T05:55:05.512Z - success: protocol unpack registerred
+2020-05-27T05:55:05.512Z - success: protocol disable-commonjs registerred
+2020-05-27T05:55:05.721Z - normal: connected!
+2020-05-27T05:55:05.722Z - normal: Check project D:\2020 Software Studio\SS_2020_Spring\Lab\2020(Spring)_SS-Lab_11. NS-TOWER\Lab11-NS-TOWER_template
+2020-05-27T05:55:05.724Z - normal: Initializing project D:\2020 Software Studio\SS_2020_Spring\Lab\2020(Spring)_SS-Lab_11. NS-TOWER\Lab11-NS-TOWER_template
+2020-05-27T05:55:05.755Z - success: adapters loaded
+2020-05-27T05:55:05.758Z - success: asset-db-debugger loaded
+2020-05-27T05:55:05.818Z - success: fb-audience-network loaded
+2020-05-27T05:55:05.839Z - success: fb-live-stream loaded
+2020-05-27T05:55:05.842Z - success: google-play-instant loaded
+2020-05-27T05:55:05.847Z - success: huawei-runtime loaded
+2020-05-27T05:55:05.848Z - success: jkw-adapter loaded
+2020-05-27T05:55:05.849Z - success: jsb-adapter loaded
+2020-05-27T05:55:05.853Z - success: oppo-runtime loaded
+2020-05-27T05:55:05.855Z - success: package-manager loaded
+2020-05-27T05:55:05.856Z - success: qtt-adapter loaded
+2020-05-27T05:55:05.859Z - success: runtime-dev-tools loaded
+2020-05-27T05:55:05.861Z - failed: Failed to load package at C:\CocosCreator_2.2.2\resources\builtin\sdkbox: Failed to load main.js: TypeError: Cannot read property 'split' of undefined
+    at compareVersions (C:\CocosCreator_2.2.2\resources\builtin\sdkbox\main.js:25:20)
+    at Object.<anonymous> (C:\CocosCreator_2.2.2\resources\builtin\sdkbox\main.js:49:11)
+    at Module._compile (internal/modules/cjs/loader.js:839:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
+    at Module.load (internal/modules/cjs/loader.js:701:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
+    at Module.require (internal/modules/cjs/loader.js:739:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at C:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\main\package.js:1:1877
+2020-05-27T05:55:05.863Z - success: ui-kit-preview-extra loaded
+2020-05-27T05:55:05.865Z - success: ui-kit-preview loaded
+2020-05-27T05:55:05.870Z - success: vivo-runtime loaded
+2020-05-27T05:55:05.872Z - success: alipay-minigame loaded
+2020-05-27T05:55:05.917Z - success: assets loaded
+2020-05-27T05:55:05.919Z - success: baidugame-opendata loaded
+2020-05-27T05:55:05.922Z - success: baidugame loaded
+2020-05-27T05:55:05.925Z - success: builder loaded
+2020-05-27T05:55:06.045Z - success: cocos-services loaded
+2020-05-27T05:55:06.047Z - success: console loaded
+2020-05-27T05:55:06.058Z - success: fb-instant-games loaded
+2020-05-27T05:55:06.060Z - success: game-window loaded
+2020-05-27T05:55:06.061Z - success: google-instant-games loaded
+2020-05-27T05:55:06.063Z - success: hierarchy loaded
+2020-05-27T05:55:06.065Z - success: inspector loaded
+2020-05-27T05:55:06.300Z - success: cpk-publish loaded
+2020-05-27T05:55:06.304Z - success: keystore loaded
+2020-05-27T05:55:06.315Z - success: node-library loaded
+2020-05-27T05:55:06.316Z - success: open-recent-items loaded
+2020-05-27T05:55:06.318Z - success: package-asset loaded
+2020-05-27T05:55:06.320Z - success: preferences loaded
+2020-05-27T05:55:06.322Z - success: project-exporter loaded
+2020-05-27T05:55:06.324Z - success: project-importer loaded
+2020-05-27T05:55:06.326Z - success: project-settings loaded
+2020-05-27T05:55:06.338Z - success: qtt-runtime loaded
+2020-05-27T05:55:06.341Z - success: scene loaded
+2020-05-27T05:55:06.343Z - success: simulator-debugger loaded
+2020-05-27T05:55:06.344Z - success: sprite-editor loaded
+2020-05-27T05:55:06.345Z - success: store loaded
+2020-05-27T05:55:06.347Z - success: timeline loaded
+2020-05-27T05:55:06.349Z - success: wechatgame-opendata loaded
+2020-05-27T05:55:06.352Z - success: wechatgame loaded
+2020-05-27T05:55:06.355Z - success: xiaomi-runtime loaded
+2020-05-27T05:55:07.061Z - normal: Initializing Cocos2d
+2020-05-27T05:55:07.420Z - normal: Initializing engine extends
+2020-05-27T05:55:08.945Z - info: Cocos Service load base data!
+2020-05-27T05:55:17.804Z - normal: Loading packages
+2020-05-27T05:55:17.810Z - failed: Failed to load package at C:\CocosCreator_2.2.2\resources\builtin\sdkbox: Failed to load main.js: TypeError: Cannot read property 'split' of undefined
+    at compareVersions (C:\CocosCreator_2.2.2\resources\builtin\sdkbox\main.js:25:20)
+    at Object.<anonymous> (C:\CocosCreator_2.2.2\resources\builtin\sdkbox\main.js:49:11)
+    at Module._compile (internal/modules/cjs/loader.js:839:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:851:10)
+    at Module.load (internal/modules/cjs/loader.js:701:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:633:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:625:3)
+    at Module.require (internal/modules/cjs/loader.js:739:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at C:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\main\package.js:1:1877
+2020-05-27T05:55:17.812Z - normal: Watching packages
+2020-05-27T05:55:18.416Z - normal: Run Application

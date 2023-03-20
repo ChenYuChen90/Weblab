@@ -1,0 +1,17 @@
+{
+  "name": "tilemap-helper",
+  "version": "0.0.1",
+  "description": "A module that automatically performs Z-sorting inside the editor..",
+  "author": "ChocolaMint",
+  "main": "main.js",
+  "scene-script": "z-sorting.js",
+  "main-menu": {
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "tilemap-helper",
+    "width": 400,
+    "height": 300
+  }
+}

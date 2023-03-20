@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "49f74f90-872c-4167-9c98-289b0b09001a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "point",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 6,
+  "height": 3,
+  "platformSettings": {},
+  "subMetas": {
+    "generic-rpg-fish02": {
+      "ver": "1.0.6",
+      "uuid": "ce23ce7e-c517-4be2-b80d-bb44024b8fa1",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "49f74f90-872c-4167-9c98-289b0b09001a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 6,
+      "height": 3,
+      "rawWidth": 6,
+      "rawHeight": 3,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "94ee5201-8bde-4afb-94d6-23efc12fad5a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "point",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 10,
+  "height": 16,
+  "platformSettings": {},
+  "subMetas": {
+    "generic-rpg-barrel03": {
+      "ver": "1.0.6",
+      "uuid": "4b3f53b8-bf76-48f6-a29e-e714ac8fe08b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "94ee5201-8bde-4afb-94d6-23efc12fad5a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 10,
+      "height": 16,
+      "rawWidth": 10,
+      "rawHeight": 16,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

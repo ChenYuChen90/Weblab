@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "efb18fc8-3242-4116-865d-537032e5f438",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "point",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 13,
+  "height": 7,
+  "platformSettings": {},
+  "subMetas": {
+    "generic-rpg-grass01": {
+      "ver": "1.0.6",
+      "uuid": "dc5081f1-3db4-4ede-9ac4-baec11be294f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "efb18fc8-3242-4116-865d-537032e5f438",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 13,
+      "height": 7,
+      "rawWidth": 13,
+      "rawHeight": 7,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

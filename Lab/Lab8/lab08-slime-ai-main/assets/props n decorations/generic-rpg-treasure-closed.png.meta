@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6af11bb3-9bd3-4fb0-8ac4-e32fa60f9538",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "point",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 25,
+  "height": 21,
+  "platformSettings": {},
+  "subMetas": {
+    "generic-rpg-treasure-closed": {
+      "ver": "1.0.6",
+      "uuid": "6e8ac15c-2ed3-4ad9-9ca9-4510c8e17abc",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6af11bb3-9bd3-4fb0-8ac4-e32fa60f9538",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 25,
+      "height": 21,
+      "rawWidth": 25,
+      "rawHeight": 21,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

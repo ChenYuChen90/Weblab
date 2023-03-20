@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6ebe9c7e-da0e-4cc0-ba38-9553af421075",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "point",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 55,
+  "height": 39,
+  "platformSettings": {},
+  "subMetas": {
+    "generic-rpg-mini-lake": {
+      "ver": "1.0.6",
+      "uuid": "757f9463-06c4-4c5d-ac94-a543907aa162",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6ebe9c7e-da0e-4cc0-ba38-9553af421075",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 55,
+      "height": 39,
+      "rawWidth": 55,
+      "rawHeight": 39,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

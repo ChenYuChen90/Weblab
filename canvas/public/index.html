@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>canvas</title>
+        <link
+			rel="stylesheet"
+			href="./index.css"
+		/>
+        
+    </head>
+    <body>
+        
+        <table id = 'selecter' border = '3'>
+            <tr class = "row" >
+                <td>
+                    <div>
+                        <label style="font-family: Cursive;">color</label>
+                        <input type = "color" onchange = "pen_color(this.value);">
+                    </div>
+                </td>
+                <td>
+                    <div class="width">
+                        <label style="font-family: Cursive;">brush size</label>
+                        <input width="400" type="range" min="1" max="20" name="sld3" value="10" id = 'hi' onchange= "brush_size(this.value);">
+                        <p style="font-family: Cursive;" id = "slider_value">10px</p>
+                    </div>
+                </td>
+                <td>
+                    <label style="font-family: Cursive;">brush type</label>
+                    <select id = 'brush' onchange = 'change_brush_type()'>
+                        <option value = 'default'>default</option>
+                        <option value = 'multiple_strokes'>multiple strokes</option>
+                        <option value = 'spray'>spray</option>
+                        <option value = 'neighbor'>neighbor</option>
+                    </select>
+                </td>
+                <td>
+                    <label>font family</label>
+                    <select id = "font_family" onchange = "change_tfamily(this.value)">
+                        <option value="Cursive" style="font-family: Cursive;">Cursive</option>
+                        <option value="Impact" style="font-family: Impact;"> Impact</option>
+                        <option value="Papyrus" style="font-family:Papyrus;">Papyrus</option>
+                        <option value="Times New Roman" style="font-family:Times New Roman">Times New Roman</option>
+                        <option value="YouYuan" style="font-family: YouYuan;">幼圓</option>
+                        <option value="BiauKai" style="font-family: BiauKai;">標楷體</option>
+                        <option value="STFangsong" style="font-family: STFangsong;">華文仿宋</option>
+                        <option value="Microsoft JhengHei" style="font-family: Microsoft JhengHei;">微軟正黑體</option>
+                    </select>
+                </td>
+                <td>
+                    <label>font size</label>
+                    <select id = "font_size" onchange = "change_tsize(this.value)">
+                        <option value="12">12</option>
+                        <option value="18">18</option>
+                        <option value="24">24</option>
+                        <option value="32">32</option>
+                        <option value="48">48</option>
+                        <option value="64">64</option>
+                        <option value="80">80</option>
+                        <option value="100">100</option>
+                    </select>
+                </td>
+            </tr>    
+        </table>
+        <canvas width="700px" height="500px" id="canvas"></canvas>
+        <table id = 'tool' >
+            
+            <tr class="row">
+                <td><input type="button"    id = 'pen'     onclick = "change_pen()"></td>
+                <td><input type="button"    id = 'eraser'  onclick = "change_erase()"></td>
+                <td><input type="button"    id="text"      onclick = "change_text()"></td>
+            </tr>
+            <tr class="row">
+                <td><input type="button"    id="cir"    onclick = "change_cir()"></td>
+                <td><input type="button"    id="tri"    onclick = "change_tri()"></td>
+                <td><input type="button"    id="rect"   onclick = "change_rect()"></td>
+            </tr>
+            <tr class="row">
+                <td><input type="button"    id="reset" ></td>
+                <td><input type="button"    id = "ImageDownloader" name = "ImageDownloader" onclick = 'download_image()'></td>
+                <td>
+                    <input type = "file" id = 'ImageLoader' title="" name = "ImageLoader" accept = "image/*" >
+                </td>   
+            </tr>	
+            <tr class="row">
+                <td><input type="button"    id = "Un_do"    onclick="do_undo()"></td>
+                <td><input type="button"    id = "Re_do"    onclick="do_redo()"></td>
+            </tr>
+        </table>
+        <script src = "./index.js">
+        </script>
+    </body>
+</html>

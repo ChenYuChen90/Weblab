@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="50" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="363">
+ <tileset firstgid="1" name="Generic RPG" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="atlas.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="Generic RPG Objects" tilewidth="70" tileheight="88" tilecount="79" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="158">
+   <image width="55" height="39" source="../props n decorations/generic-rpg-mini-lake.png"/>
+  </tile>
+  <tile id="159">
+   <image width="16" height="8" source="../props n decorations/generic-rpg-rock01.png"/>
+  </tile>
+  <tile id="160">
+   <image width="25" height="9" source="../props n decorations/generic-rpg-rock02.png"/>
+  </tile>
+  <tile id="161">
+   <image width="23" height="11" source="../props n decorations/generic-rpg-rock03.png"/>
+  </tile>
+  <tile id="162">
+   <image width="26" height="15" source="../props n decorations/generic-rpg-rock04.png"/>
+  </tile>
+  <tile id="163">
+   <image width="21" height="15" source="../props n decorations/generic-rpg-rock05.png"/>
+  </tile>
+  <tile id="164">
+   <image width="32" height="13" source="../props n decorations/generic-rpg-rock06.png"/>
+  </tile>
+  <tile id="165">
+   <image width="14" height="33" source="../props n decorations/generic-rpg-rod.png"/>
+  </tile>
+  <tile id="166">
+   <image width="25" height="27" source="../props n decorations/generic-rpg-trasure-open.png"/>
+  </tile>
+  <tile id="167">
+   <image width="25" height="21" source="../props n decorations/generic-rpg-treasure-closed.png"/>
+  </tile>
+  <tile id="168">
+   <image width="53" height="74" source="../props n decorations/generic-rpg-tree01.png"/>
+  </tile>
+  <tile id="169">
+   <image width="53" height="74" source="../props n decorations/generic-rpg-tree02.png"/>
+  </tile>
+  <tile id="170">
+   <image width="12" height="17" source="../props n decorations/generic-rpg-barrel01.png"/>
+  </tile>
+  <tile id="171">
+   <image width="17" height="17" source="../props n decorations/generic-rpg-barrel02.png"/>
+  </tile>
+  <tile id="172">
+   <image width="10" height="16" source="../props n decorations/generic-rpg-barrel03.png"/>
+  </tile>
+  <tile id="173">
+   <image width="16" height="15" source="../props n decorations/generic-rpg-board01.png"/>
+  </tile>
+  <tile id="174">
+   <image width="16" height="15" source="../props n decorations/generic-rpg-board02.png"/>
+  </tile>
+  <tile id="175">
+   <image width="18" height="22" source="../props n decorations/generic-rpg-board03.png"/>
+  </tile>
+  <tile id="176">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-board04.png"/>
+  </tile>
+  <tile id="177">
+   <image width="58" height="56" source="../props n decorations/generic-rpg-bridge.png"/>
+  </tile>
+  <tile id="178">
+   <image width="18" height="19" source="../props n decorations/generic-rpg-crate01.png"/>
+  </tile>
+  <tile id="179">
+   <image width="24" height="21" source="../props n decorations/generic-rpg-crate02.png"/>
+  </tile>
+  <tile id="180">
+   <image width="14" height="18" source="../props n decorations/generic-rpg-crate03.png"/>
+  </tile>
+  <tile id="181">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence01.png"/>
+  </tile>
+  <tile id="182">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence02.png"/>
+  </tile>
+  <tile id="183">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence03.png"/>
+  </tile>
+  <tile id="184">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence04.png"/>
+  </tile>
+  <tile id="185">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence05.png"/>
+  </tile>
+  <tile id="186">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence06.png"/>
+  </tile>
+  <tile id="187">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence07.png"/>
+  </tile>
+  <tile id="188">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence08.png"/>
+  </tile>
+  <tile id="189">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence09.png"/>
+  </tile>
+  <tile id="190">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence10.png"/>
+  </tile>
+  <tile id="191">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence11.png"/>
+  </tile>
+  <tile id="192">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence12.png"/>
+  </tile>
+  <tile id="193">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence13.png"/>
+  </tile>
+  <tile id="194">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence14.png"/>
+  </tile>
+  <tile id="195">
+   <image width="67" height="62" source="../props n decorations/generic-rpg-fence-complete.png"/>
+  </tile>
+  <tile id="196">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw01.png"/>
+  </tile>
+  <tile id="197">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw02.png"/>
+  </tile>
+  <tile id="198">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw03.png"/>
+  </tile>
+  <tile id="199">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw04.png"/>
+  </tile>
+  <tile id="200">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw05.png"/>
+  </tile>
+  <tile id="201">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw06.png"/>
+  </tile>
+  <tile id="202">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw07.png"/>
+  </tile>
+  <tile id="203">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw08.png"/>
+  </tile>
+  <tile id="204">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw09.png"/>
+  </tile>
+  <tile id="205">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw10.png"/>
+  </tile>
+  <tile id="206">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw11.png"/>
+  </tile>
+  <tile id="207">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw12.png"/>
+  </tile>
+  <tile id="208">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw13.png"/>
+  </tile>
+  <tile id="209">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw14.png"/>
+  </tile>
+  <tile id="210">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw15.png"/>
+  </tile>
+  <tile id="211">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw16.png"/>
+  </tile>
+  <tile id="212">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw17.png"/>
+  </tile>
+  <tile id="213">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw18.png"/>
+  </tile>
+  <tile id="214">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw19.png"/>
+  </tile>
+  <tile id="215">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw20.png"/>
+  </tile>
+  <tile id="216">
+   <image width="16" height="16" source="../props n decorations/generic-rpg-fence-raw21.png"/>
+  </tile>
+  <tile id="217">
+   <image width="16" height="48" source="../props n decorations/generic-rpg-fence-raw22.png"/>
+  </tile>
+  <tile id="218">
+   <image width="16" height="48" source="../props n decorations/generic-rpg-fence-raw23.png"/>
+  </tile>
+  <tile id="219">
+   <image width="48" height="16" source="../props n decorations/generic-rpg-fence-raw24.png"/>
+  </tile>
+  <tile id="220">
+   <image width="48" height="16" source="../props n decorations/generic-rpg-fence-raw25.png"/>
+  </tile>
+  <tile id="221">
+   <image width="7" height="7" source="../props n decorations/generic-rpg-fish01.png"/>
+  </tile>
+  <tile id="222">
+   <image width="6" height="3" source="../props n decorations/generic-rpg-fish02.png"/>
+  </tile>
+  <tile id="223">
+   <image width="4" height="4" source="../props n decorations/generic-rpg-fish03.png"/>
+  </tile>
+  <tile id="224">
+   <image width="8" height="4" source="../props n decorations/generic-rpg-fish04.png"/>
+  </tile>
+  <tile id="225">
+   <image width="8" height="7" source="../props n decorations/generic-rpg-flower01.png"/>
+  </tile>
+  <tile id="226">
+   <image width="8" height="7" source="../props n decorations/generic-rpg-flower02.png"/>
+  </tile>
+  <tile id="227">
+   <image width="8" height="7" source="../props n decorations/generic-rpg-flower03.png"/>
+  </tile>
+  <tile id="228">
+   <image width="56" height="28" source="../props n decorations/generic-rpg-flowers.png"/>
+  </tile>
+  <tile id="229">
+   <image width="13" height="7" source="../props n decorations/generic-rpg-grass01.png"/>
+  </tile>
+  <tile id="230">
+   <image width="16" height="9" source="../props n decorations/generic-rpg-grass02.png"/>
+  </tile>
+  <tile id="231">
+   <image width="70" height="88" source="../props n decorations/generic-rpg-house-inn.png"/>
+  </tile>
+  <tile id="232">
+   <image width="12" height="12" source="../props n decorations/generic-rpg-loot01.png"/>
+  </tile>
+  <tile id="233">
+   <image width="11" height="11" source="../props n decorations/generic-rpg-loot02.png"/>
+  </tile>
+  <tile id="234">
+   <image width="9" height="11" source="../props n decorations/generic-rpg-loot03.png"/>
+  </tile>
+  <tile id="235">
+   <image width="9" height="11" source="../props n decorations/generic-rpg-loot04.png"/>
+  </tile>
+  <tile id="236">
+   <image width="10" height="11" source="../props n decorations/generic-rpg-loot05.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Ground" width="50" height="15">
+  <data encoding="csv">
+518,518,518,518,518,518,518,518,518,518,518,518,518,518,518,518,558,518,518,558,518,518,518,518,518,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,600,601,602,603,555,
+518,518,518,518,518,518,518,518,518,518,518,518,518,518,518,518,558,518,518,558,518,518,518,518,518,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,632,633,634,635,555,
+518,518,518,518,518,518,518,518,518,518,581,582,583,584,585,586,586,584,585,558,764,764,759,585,586,627,628,629,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,664,665,666,667,555,
+518,518,518,518,518,518,518,518,518,518,613,614,615,616,617,618,618,616,617,795,796,796,791,617,618,659,660,661,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,696,697,698,699,555,
+518,518,518,518,518,518,518,518,518,518,645,646,647,648,649,650,650,648,649,827,828,828,823,649,650,691,548,549,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,728,729,730,731,555,
+518,518,518,518,582,583,584,585,586,587,677,678,679,680,681,682,682,682,518,558,860,860,855,681,682,723,783,784,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,600,601,602,603,555,
+610,611,612,613,614,615,616,617,618,617,618,774,711,712,518,518,558,518,518,558,518,518,518,518,813,814,815,816,519,519,519,519,519,6,519,519,519,519,519,519,519,519,519,519,519,632,633,634,635,555,
+642,643,644,645,646,647,648,649,650,649,651,718,692,693,518,518,558,518,518,558,518,518,518,518,845,846,847,848,6,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,664,665,666,667,555,
+674,675,676,677,678,679,784,681,682,681,683,750,724,725,585,586,585,586,585,586,585,586,585,586,741,742,783,784,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,696,697,698,699,555,
+706,707,708,709,710,711,816,518,518,518,781,787,788,789,617,618,617,618,617,618,617,618,617,618,773,774,815,816,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,728,729,730,731,555,
+738,739,740,741,742,743,816,518,518,518,813,819,820,821,649,650,649,650,649,650,649,650,649,650,649,579,580,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,600,601,602,603,555,
+770,771,772,773,774,775,816,518,518,518,843,851,852,853,681,6,681,682,681,682,681,682,681,8,681,519,519,519,7,519,519,519,519,519,519,519,8,519,519,519,519,519,519,519,519,632,633,634,635,555,
+802,803,804,805,806,807,808,518,518,518,5,851,611,7,593,593,558,564,558,558,892,518,518,518,518,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,664,665,666,667,555,
+559,559,559,559,559,559,559,8,559,559,559,6,559,559,559,559,558,558,5,558,559,559,559,559,559,519,7,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,886,887,888,889,890,891,892,
+518,518,518,518,518,518,518,552,552,518,518,518,518,518,518,518,558,564,558,558,559,559,559,518,518,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,519,918,919,920,921,922,923,924
+</data>
+ </layer>
+ <layer id="15" name="Grass" width="50" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,5,0,0,4,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,7,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="Objects">
+  <object id="63" gid="1193" x="16" y="176" width="53" height="74"/>
+  <object id="64" gid="1193" x="0" y="160" width="53" height="74"/>
+  <object id="65" gid="1193" x="16" y="144" width="53" height="74"/>
+  <object id="66" gid="1193" x="0" y="128" width="53" height="74"/>
+  <object id="67" gid="1193" x="-16" y="112" width="53" height="74"/>
+  <object id="68" gid="1193" x="16" y="96" width="53" height="74"/>
+  <object id="69" gid="1193" x="48" y="80" width="53" height="74"/>
+  <object id="71" gid="1193" x="64" y="96" width="53" height="74"/>
+  <object id="75" gid="1193" x="80" y="80" width="53" height="74"/>
+  <object id="76" gid="1194" x="96" y="96" width="53" height="74"/>
+  <object id="77" gid="1194" x="128" y="96" width="53" height="74"/>
+  <object id="78" gid="1194" x="112" y="80" width="53" height="74"/>
+  <object id="79" gid="1194" x="128" y="64" width="53" height="74"/>
+  <object id="80" gid="1194" x="144" y="48" width="53" height="74"/>
+  <object id="81" gid="1194" x="160" y="32" width="53" height="74"/>
+  <object id="82" gid="1194" x="176" y="48" width="53" height="74"/>
+  <object id="83" gid="1194" x="192" y="32" width="53" height="74"/>
+  <object id="85" gid="1194" x="208" y="48" width="53" height="74"/>
+  <object id="86" gid="1194" x="224" y="32" width="53" height="74"/>
+  <object id="87" gid="1194" x="96" y="32" width="53" height="74"/>
+  <object id="88" gid="1193" x="-16" y="64" width="53" height="74"/>
+  <object id="89" gid="1193" x="32" y="48" width="53" height="74"/>
+  <object id="90" gid="1193" x="64" y="32" width="53" height="74"/>
+  <object id="92" gid="1193" x="304" y="48" width="53" height="74"/>
+  <object id="93" gid="1193" x="320" y="32" width="53" height="74"/>
+  <object id="94" gid="1193" x="352" y="48" width="53" height="74"/>
+  <object id="113" gid="1224" x="0" y="208" width="16" height="16"/>
+  <object id="114" gid="1224" x="16" y="208" width="16" height="16"/>
+  <object id="115" gid="1224" x="32" y="208" width="16" height="16"/>
+  <object id="116" gid="1224" x="48" y="208" width="16" height="16"/>
+  <object id="117" gid="1224" x="64" y="208" width="16" height="16"/>
+  <object id="118" gid="1224" x="80" y="208" width="16" height="16"/>
+  <object id="119" gid="1231" x="96" y="208" width="16" height="16"/>
+  <object id="124" gid="1232" x="96" y="224" width="16" height="16"/>
+  <object id="127" gid="1183" x="16" y="256" width="55" height="39"/>
+  <object id="128" gid="1188" x="96" y="240" width="21" height="15"/>
+  <object id="129" gid="1185" x="64" y="224" width="25" height="9"/>
+  <object id="145" gid="1193" x="128" y="160" width="53" height="74"/>
+  <object id="146" gid="1194" x="96" y="160" width="53" height="74"/>
+  <object id="147" gid="1194" x="112" y="176" width="53" height="74"/>
+  <object id="149" gid="1193" x="128" y="192" width="53" height="74"/>
+  <object id="150" gid="1193" x="96" y="208" width="53" height="74"/>
+  <object id="158" gid="1236" x="240" y="96" width="16" height="16"/>
+  <object id="159" gid="1235" x="224" y="96" width="16" height="16"/>
+  <object id="160" gid="1228" x="208" y="96" width="16" height="16"/>
+  <object id="161" gid="1227" x="208" y="112" width="16" height="16"/>
+  <object id="162" gid="1226" x="208" y="128" width="16" height="16"/>
+  <object id="164" gid="1234" x="209" y="144" width="16" height="16"/>
+  <object id="165" gid="1229" x="224" y="144" width="16" height="16"/>
+  <object id="167" gid="1193" x="224" y="142" width="53" height="74"/>
+  <object id="170" gid="1224" x="240" y="176" width="16" height="16"/>
+  <object id="171" gid="1224" x="224" y="176" width="16" height="16"/>
+  <object id="172" gid="1224" x="208" y="176" width="16" height="16"/>
+  <object id="173" gid="1224" x="192" y="176" width="16" height="16"/>
+  <object id="174" gid="1223" x="176" y="176" width="16" height="16"/>
+  <object id="175" gid="1184" x="144" y="208" width="16" height="8"/>
+  <object id="176" gid="1189" x="224" y="224" width="32" height="13"/>
+  <object id="187" gid="1194" x="304" y="112" width="53" height="74"/>
+  <object id="188" gid="1194" x="336" y="96" width="53" height="74"/>
+  <object id="189" gid="1193" x="304" y="144" width="53" height="74"/>
+  <object id="190" gid="1193" x="336" y="128" width="53" height="74"/>
+  <object id="191" gid="1193" x="352" y="144" width="53" height="74"/>
+  <object id="194" gid="1230" x="320" y="176" width="16" height="16"/>
+  <object id="195" gid="1229" x="336" y="176" width="16" height="16"/>
+  <object id="196" gid="1230" x="352" y="176" width="16" height="16"/>
+  <object id="197" gid="1235" x="368" y="176" width="16" height="16"/>
+  <object id="198" gid="1235" x="384" y="176" width="16" height="16"/>
+  <object id="199" gid="1183" x="336" y="240" width="55" height="39"/>
+  <object id="215" gid="1193" x="257.5" y="48.5" width="53" height="74"/>
+  <object id="216" gid="1236" x="256" y="176" width="16" height="16"/>
+  <object id="217" gid="1235" x="288" y="176" width="16" height="16"/>
+  <object id="218" gid="1230" x="272" y="176" width="16" height="16"/>
+  <object id="219" gid="1229" x="304" y="176" width="16" height="16"/>
+  <object id="220" gid="1256" x="576" y="96" width="70" height="88"/>
+  <object id="221" gid="1193" x="560" y="48" width="53" height="74"/>
+  <object id="222" gid="1194" x="592" y="32" width="53" height="74"/>
+  <object id="223" gid="1194" x="624" y="48" width="53" height="74"/>
+  <object id="224" gid="1193" x="640" y="64" width="53" height="74"/>
+  <object id="225" gid="1194" x="528" y="64" width="53" height="74"/>
+  <object id="226" gid="1194" x="512" y="48" width="53" height="74"/>
+  <object id="227" gid="1193" x="480" y="32" width="53" height="74"/>
+  <object id="228" gid="1194" x="448" y="48" width="53" height="74"/>
+  <object id="229" gid="1193" x="416" y="32" width="53" height="74"/>
+  <object id="230" gid="1194" x="400" y="16" width="53" height="74"/>
+  <object id="231" gid="1194" x="368" y="32" width="53" height="74"/>
+  <object id="232" gid="1194" x="672" y="48" width="53" height="74"/>
+  <object id="233" gid="1194" x="688" y="64" width="53" height="74"/>
+  <object id="235" gid="1194" x="784" y="16" width="53" height="74"/>
+  <object id="237" gid="1194" x="768" y="48" width="53" height="74"/>
+  <object id="240" gid="1193" x="688" y="16" width="53" height="74"/>
+  <object id="243" gid="35" x="560" y="96" width="16" height="16"/>
+  <object id="245" gid="1206" x="432" y="64" width="16" height="16"/>
+  <object id="246" gid="1207" x="448" y="64" width="16" height="16"/>
+  <object id="248" gid="1210" x="496" y="64" width="16" height="16"/>
+  <object id="249" gid="1218" x="432" y="80" width="16" height="16"/>
+  <object id="250" gid="1218" x="432" y="96" width="16" height="16"/>
+  <object id="251" gid="1217" x="432" y="112" width="16" height="16"/>
+  <object id="252" gid="1214" x="480" y="112" width="16" height="16"/>
+  <object id="254" gid="1216" x="448" y="112" width="16" height="16"/>
+  <object id="255" gid="1215" x="464" y="112" width="16" height="16"/>
+  <object id="256" gid="1213" x="496" y="112" width="16" height="16"/>
+  <object id="258" gid="1212" x="496" y="96" width="16" height="16"/>
+  <object id="259" gid="1212" x="496" y="80" width="16" height="16"/>
+  <object id="260" gid="1208" x="464" y="64" width="16" height="16"/>
+  <object id="261" gid="1209" x="480" y="64" width="16" height="16"/>
+  <object id="283" gid="1242" x="464" y="144" width="16" height="48"/>
+  <object id="285" gid="1223" x="464" y="144" width="16" height="16"/>
+  <object id="286" gid="1224" x="480" y="144" width="16" height="16"/>
+  <object id="287" gid="1224" x="496" y="144" width="16" height="16"/>
+  <object id="288" gid="1236" x="512" y="144" width="16" height="16"/>
+  <object id="291" gid="1228" x="544" y="128" width="16" height="16"/>
+  <object id="292" gid="1226" x="544" y="144" width="16" height="16"/>
+  <object id="293" gid="1227" x="544" y="160" width="16" height="16"/>
+  <object id="294" gid="1183" x="592" y="176" width="55" height="39"/>
+  <object id="295" gid="1231" x="672" y="112" width="16" height="16"/>
+  <object id="297" gid="1232" x="672" y="128" width="16" height="16"/>
+  <object id="299" gid="1243" x="592" y="208" width="16" height="48"/>
+  <object id="302" gid="1229" x="592" y="208" width="16" height="16"/>
+  <object id="303" gid="1224" x="576" y="208" width="16" height="16"/>
+  <object id="304" gid="1224" x="560" y="208" width="16" height="16"/>
+  <object id="305" gid="1224" x="544" y="208" width="16" height="16"/>
+  <object id="306" gid="1223" x="528" y="208" width="16" height="16"/>
+  <object id="307" gid="1193" x="496" y="224" width="53" height="74"/>
+  <object id="308" gid="1193" x="464" y="240" width="53" height="74"/>
+  <object id="316" gid="1200" x="36" y="179.5" width="18" height="22"/>
+  <object id="317" gid="1230" x="640" y="160" width="16" height="16"/>
+  <object id="318" gid="1235" x="656" y="160" width="16" height="16"/>
+  <object id="325" gid="1229" x="672" y="160" width="16" height="16"/>
+  <object id="326" gid="1242" x="672" y="192" width="16" height="48"/>
+  <object id="330" gid="1184" x="448" y="144" width="16" height="8"/>
+  <object id="331" gid="1187" x="496" y="48" width="26" height="15"/>
+  <object id="332" gid="1189" x="400" y="240" width="32" height="13"/>
+  <object id="339" gid="1188" x="681" y="68" width="21" height="15"/>
+  <object id="340" gid="1250" x="774" y="73" width="8" height="7"/>
+  <object id="341" gid="1252" x="788.5" y="104.5" width="8" height="7"/>
+  <object id="342" gid="1251" x="776" y="143.5" width="8" height="7"/>
+  <object id="343" gid="1255" x="776" y="114" width="16" height="9"/>
+  <object id="344" gid="1254" x="787.5" y="163" width="13" height="7"/>
+  <object id="345" gid="1255" x="772.5" y="203" width="16" height="9"/>
+  <object id="346" gid="1187" x="783" y="186" width="26" height="15"/>
+  <object id="350" gid="1185" x="606.5" y="183.5" width="25" height="9"/>
+  <object id="361" gid="1184" x="300" y="49" width="16" height="8"/>
+  <object id="362" gid="1185" x="245.5" y="48.5" width="25" height="9"/>
+ </objectgroup>
+</map>

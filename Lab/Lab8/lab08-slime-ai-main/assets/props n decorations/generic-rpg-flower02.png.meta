@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f25395d7-7f68-4e2e-a15e-73563d951433",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "point",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 8,
+  "height": 7,
+  "platformSettings": {},
+  "subMetas": {
+    "generic-rpg-flower02": {
+      "ver": "1.0.6",
+      "uuid": "e18dad77-427a-45a4-9234-d8363ea1ef5c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f25395d7-7f68-4e2e-a15e-73563d951433",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 8,
+      "height": 7,
+      "rawWidth": 8,
+      "rawHeight": 7,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

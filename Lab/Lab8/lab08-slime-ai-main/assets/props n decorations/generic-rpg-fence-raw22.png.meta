@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d21e6559-ef22-4fc3-a1f1-15651d5b14fb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "point",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 16,
+  "height": 48,
+  "platformSettings": {},
+  "subMetas": {
+    "generic-rpg-fence-raw22": {
+      "ver": "1.0.6",
+      "uuid": "59561ed4-9a8f-4aa5-ab73-32a08c46508d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d21e6559-ef22-4fc3-a1f1-15651d5b14fb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 0,
+      "trimX": 5,
+      "trimY": 7,
+      "width": 9,
+      "height": 34,
+      "rawWidth": 16,
+      "rawHeight": 48,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
